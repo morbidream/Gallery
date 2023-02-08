@@ -3,7 +3,7 @@ import { TurnedInNot } from '@mui/icons-material';
 
 export const SiderBar = ({ openDrawer, setOpenDrawer, drawerWidth = 260 }) => {
 
-  const menu = ['Enero','Febrero','Marzo','Abril'];
+  const menu = ['Item one','Item two','Item three','Item four'];
 
   return (
     <Box component='nav'>
@@ -18,7 +18,7 @@ export const SiderBar = ({ openDrawer, setOpenDrawer, drawerWidth = 260 }) => {
         >
             <Toolbar>
                 <Typography variant='h6' noWrap component="div">
-                    Daniela Romero
+                    Menu Here
                 </Typography>
             </Toolbar>
             <Divider />
@@ -33,7 +33,7 @@ export const SiderBar = ({ openDrawer, setOpenDrawer, drawerWidth = 260 }) => {
                                 </ListItemIcon>
                                 <Grid container>
                                     <ListItemText primary={ text } sx={{ width: '100%' }} />
-                                    <ListItemText secondary={ 'Texto secundario' } />
+                                    <ListItemText secondary={ 'some text in here' } />
                                 </Grid>
                             </ListItemButton>
                         </ListItem>
